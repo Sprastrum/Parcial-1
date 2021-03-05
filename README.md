@@ -5,15 +5,15 @@ Primer parcial de POO.
 
 * ### Mapa de memoria parte 1
 
-![](imagenes/Map1.png)
+![](Imagenes/Map1.PNG)
   
 * ### Mapa de memoria parte 2
 
-![](imagenes/Map2.png)
+![](Imagenes/Map2.PNG)
 
 * ### Mapa de memoria Completo
 
-![](imagenes/Map3.png)
+![](Imagenes/Map3.PNG)
 
 # V. Conceptos
 ### 1. Encapsulamiento:
