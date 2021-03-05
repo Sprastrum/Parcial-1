@@ -24,14 +24,14 @@ public class Group {
      */
 
     public int countActiveProjects(){
-        int n = 0, i = 0;
+        int ap = 0, i = 0;
 
         for(i = 0; i < projects.size(); i++) {
             if(projects.get(i).isActive()) {
-                n++;
+                ap++;
             }
         }
 
-        return n;
+        return ap;
     }
 }

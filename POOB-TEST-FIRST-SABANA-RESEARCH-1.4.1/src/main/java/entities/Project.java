@@ -44,7 +44,7 @@ public class Project {
         boolean result = false;
 
         for(i = 0; i < iterations.size(); i++) {
-            if(dateEnd.isAfter(LocalDate.now()) || iterations.get(i).countOpenActivities() > 0) {
+            if(dateEnd.isBefore(LocalDate.now()) || iterations.get(i).countOpenActivities() > 0) {
                 result = true;
             }
         }
