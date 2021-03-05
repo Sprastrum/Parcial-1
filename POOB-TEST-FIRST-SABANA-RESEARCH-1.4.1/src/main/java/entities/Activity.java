@@ -19,13 +19,23 @@ public class Activity {
         this.iteration.addActivity(this);
     }
 
+    public String getState() {
+        return state;
+    }
+
     /**
      * Evaluate if an activity is active.
      *
      * @return true if the activity is in state pending or active, otherwise return false.
      */
     public boolean isActive() {
-        return false;
+        boolean result = false;
+
+        if(getState().equals(ACTIVE_STATE) || getState().equals(PENDING_STATE)) {
+            result = true;
+        }
+
+        return result;
     }
 
 }

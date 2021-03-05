@@ -21,4 +21,22 @@ public class Iteration {
         this.activities.add(activity);
     }
 
+    /**
+     * Count one if activity is true.
+     *
+     * @return number of activities opens or pendings.
+     */
+
+    public int countOpenActivities() {
+        int n = 0, i = 0;
+
+        for(i = 0; i < activities.size(); i++) {
+            if(activities.get(i).isActive()) {
+                n++;
+            }
+        }
+
+        return n;
+    }
+
 }
