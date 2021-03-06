@@ -27,16 +27,17 @@ public class Iteration {
      * @return number of activities opens or pendings.
      */
 
-    public int countOpenActivities() {
-        int n = 0, i = 0;
+    public boolean countOpenActivities() {
+        boolean result = false;
+        int i = 0;
 
         for(i = 0; i < activities.size(); i++) {
             if(activities.get(i).isActive()) {
-                n++;
+                result = true;
             }
         }
 
-        return n;
+        return result;
     }
 
 }
