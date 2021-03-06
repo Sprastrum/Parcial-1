@@ -15,6 +15,10 @@ Primer parcial de POO.
 
 ![](Imagenes/Map3.PNG)
 
+# III. Diseño
+
+![](Imagenes/Diseño.PNG)
+
 # V. Conceptos
 ### 1. Encapsulamiento:
 Encapsulamiento es mantener una información constante, 
