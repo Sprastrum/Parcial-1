@@ -17,7 +17,7 @@ Primer parcial de POO.
 
 # III. Diseño
 
-![](Imagenes/Dis.PNG)
+![](Imagenes/Dis.png)
 
 # V. Conceptos
 ### 1. Encapsulamiento:
