@@ -1,5 +1,5 @@
 # Parcial-1
-Primer parcial de POO.
+Primer parcial de POO de Santiago Santos.
 
 # I. Memoria
 
